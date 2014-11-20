@@ -1,5 +1,5 @@
 """
-Django settings for ursa_django project.
+Django settings for ursa-django project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -48,9 +48,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'ursa_django.urls'
+ROOT_URLCONF = 'app.urls'
 
-WSGI_APPLICATION = 'ursa_django.wsgi.application'
+WSGI_APPLICATION = 'app.wsgi.application'
 
 
 # Database
